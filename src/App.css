@@ -1,0 +1,120 @@
+
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.months {
+    display: flex;
+    margin-left: 16px;
+}
+
+.month {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: #959494;
+    margin-right: 42.5px;
+}
+
+.row {
+    display: Flex;
+    justify-content: left;
+    margin-right: 15px;
+}
+
+.container__day_of_the_week {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.day__of_the_week {
+    position: relative;
+    height: 30%;
+    display: flex;
+    bottom: 16px;
+    right: 0;
+    align-items: start;
+    margin-top: 15px;
+    margin-right: 4.67px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #959494;
+}
+
+.square__cell {
+    width: 15px;
+    height: 15px;
+    background-color: #EDEDED;
+    margin: 0 1px 1px 0;
+}
+
+.square__cell-3 {
+    width: 15px;
+    height: 15px;
+    background-color: #ACD5F2;
+    margin: 0 1px 1px 0;
+}
+
+.square__cell-6 {
+    width: 15px;
+    height: 15px;
+    background-color: #7FA8C9;
+    margin: 0 1px 1px 0;
+}
+
+.square__cell-9 {
+    width: 15px;
+    height: 15px;
+    background-color: #527BA0;
+    margin: 0 1px 1px 0;
+}
+
+.square__cell-12 {
+    width: 15px;
+    height: 15px;
+    background-color: #254E77;
+    margin: 0 1px 1px 0;
+}
+
+.cell__visible {
+    display: block;
+    position: absolute;
+    transform: translate(-65px, -70px);
+    width: 145px;
+    height: 37px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 3px;
+    font-weight: 400;
+    line-height: 15px;
+    padding-top: 5px;
+}
+
+.App__cell_br {
+    color: #7C7C7C;
+    font-size: 10px;
+}
+
+.qwe {
+    transform: translate(-0px, 5px);
+}
+
+.cell__visible_date {
+    color: #7C7C7C;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+
+}
